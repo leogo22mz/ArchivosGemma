@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ferreteria xmlns:ns2="com.vogella.xml.jaxb.gradle.model">
+    <linternaList>
+        <linterna>
+            <brand>Neil Strauss</brand>
+            <title>The Game</title>
+            <retailer>Harpercollins</retailer>
+        </linterna>
+        <linterna>
+            <brand>Charlotte Roche</brand>
+            <title>Feuchtgebiete</title>
+            <retailer>Dumont Buchverlag</retailer>
+        </linterna>
+    </linternaList>
+    <location>Frankfurt Airport</location>
+    <name>Fraport Ferreteria</name>
+</ns2:ferreteria>
