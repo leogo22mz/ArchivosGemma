@@ -2,16 +2,21 @@
 <ns2:ferreteria xmlns:ns2="com.vogella.xml.jaxb.gradle.model">
     <linternaList>
         <linterna>
-            <brand>Neil Strauss</brand>
-            <title>The Game</title>
-            <retailer>Harpercollins</retailer>
+            <brand>Fenix</brand>
+            <title>XL50</title>
+            <retailer>Decathlon</retailer>
         </linterna>
         <linterna>
-            <brand>Charlotte Roche</brand>
-            <title>Feuchtgebiete</title>
-            <retailer>Dumont Buchverlag</retailer>
+            <brand>Anker</brand>
+            <title>LC90</title>
+            <retailer>Bolder</retailer>
+        </linterna>
+        <linterna>
+            <brand>SureFire </brand>
+            <title>G2X Pro</title>
+            <retailer>Firestorm</retailer>
         </linterna>
     </linternaList>
-    <location>Frankfurt Airport</location>
+    <location>Frankfurt</location>
     <name>Fraport Ferreteria</name>
 </ns2:ferreteria>

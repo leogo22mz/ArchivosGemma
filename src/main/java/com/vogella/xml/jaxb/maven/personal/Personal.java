@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.vogella.xml.jaxb.maven.personal;
 
 import java.io.File;
@@ -21,23 +17,29 @@ public class Personal {
     public static void main(String[] args) throws JAXBException, IOException {
         // create linternas
         var linterna1 = new Linternas();
-        linterna1.setName("The Game");
-        linterna1.setBrand("Neil Strauss");
-        linterna1.setRetailer("Harpercollins");
+        linterna1.setName("XL50");
+        linterna1.setBrand("Fenix");
+        linterna1.setRetailer("Decathlon");
 
         var linterna2 = new Linternas();
-        linterna2.setName("Feuchtgebiete");
-        linterna2.setBrand("Charlotte Roche");
-        linterna2.setRetailer("Dumont Buchverlag");
+        linterna2.setName("LC90");
+        linterna2.setBrand("Anker");
+        linterna2.setRetailer("Bolder");
+        
+        var linterna3 = new Linternas();
+        linterna3.setName("G2X Pro");
+        linterna3.setBrand("SureFire ");
+        linterna3.setRetailer("Firestorm");
 
         // create linternastore, assigning linternas
         var linternaList = new ArrayList<Linternas>();
         linternaList.add(linterna1);
         linternaList.add(linterna2);
+        linternaList.add(linterna3);
 
         var linternastore = new Ferreteria();
         linternastore.setName("Fraport Ferreteria");
-        linternastore.setLocation("Frankfurt Airport");
+        linternastore.setLocation("Frankfurt");
         linternastore.setLinternaList(linternaList);
 
         // create JAXB context and instantiate marshaller
